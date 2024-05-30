@@ -1,0 +1,3 @@
+requirements:
+  - "boost/1.84.0"
+  - "zlib/1.3.1"

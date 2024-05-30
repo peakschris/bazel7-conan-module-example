@@ -1,0 +1,4 @@
+conan_extension = use_extension("//deps/conan:conan_extension.bzl", "conan_extension")
+use_repo(conan_extension, "boost")
+use_repo(conan_extension, "bzip2")
+use_repo(conan_extension, "zlib")

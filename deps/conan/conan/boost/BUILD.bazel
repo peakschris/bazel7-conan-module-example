@@ -1,0 +1,1089 @@
+load("@rules_cc//cc:defs.bzl", "cc_import", "cc_library")
+
+# Components precompiled libs
+
+
+
+
+
+
+cc_import(
+    name = "boost_atomic_precompiled",
+    shared_library = "bin/boost_atomic.dll",
+    interface_library = "lib/boost_atomic.lib",
+)
+
+cc_import(
+    name = "boost_container_precompiled",
+    shared_library = "bin/boost_container.dll",
+    interface_library = "lib/boost_container.lib",
+)
+
+cc_import(
+    name = "boost_context_precompiled",
+    shared_library = "bin/boost_context.dll",
+    interface_library = "lib/boost_context.lib",
+)
+
+cc_import(
+    name = "boost_date_time_precompiled",
+    shared_library = "bin/boost_date_time.dll",
+    interface_library = "lib/boost_date_time.lib",
+)
+
+
+
+cc_import(
+    name = "boost_math_c99_precompiled",
+    shared_library = "bin/boost_math_c99.dll",
+    interface_library = "lib/boost_math_c99.lib",
+)
+
+cc_import(
+    name = "boost_math_c99f_precompiled",
+    shared_library = "bin/boost_math_c99f.dll",
+    interface_library = "lib/boost_math_c99f.lib",
+)
+
+cc_import(
+    name = "boost_math_c99l_precompiled",
+    shared_library = "bin/boost_math_c99l.dll",
+    interface_library = "lib/boost_math_c99l.lib",
+)
+
+cc_import(
+    name = "boost_math_tr1_precompiled",
+    shared_library = "bin/boost_math_tr1.dll",
+    interface_library = "lib/boost_math_tr1.lib",
+)
+
+cc_import(
+    name = "boost_math_tr1f_precompiled",
+    shared_library = "bin/boost_math_tr1f.dll",
+    interface_library = "lib/boost_math_tr1f.lib",
+)
+
+cc_import(
+    name = "boost_math_tr1l_precompiled",
+    shared_library = "bin/boost_math_tr1l.dll",
+    interface_library = "lib/boost_math_tr1l.lib",
+)
+
+cc_import(
+    name = "boost_program_options_precompiled",
+    shared_library = "bin/boost_program_options.dll",
+    interface_library = "lib/boost_program_options.lib",
+)
+
+cc_import(
+    name = "boost_regex_precompiled",
+    shared_library = "bin/boost_regex.dll",
+    interface_library = "lib/boost_regex.lib",
+)
+
+cc_import(
+    name = "boost_serialization_precompiled",
+    shared_library = "bin/boost_serialization.dll",
+    interface_library = "lib/boost_serialization.lib",
+)
+
+
+cc_import(
+    name = "boost_stacktrace_noop_precompiled",
+    shared_library = "bin/boost_stacktrace_noop.dll",
+    interface_library = "lib/boost_stacktrace_noop.lib",
+)
+
+cc_import(
+    name = "boost_stacktrace_windbg_precompiled",
+    shared_library = "bin/boost_stacktrace_windbg.dll",
+    interface_library = "lib/boost_stacktrace_windbg.lib",
+)
+
+cc_import(
+    name = "boost_stacktrace_windbg_cached_precompiled",
+    shared_library = "bin/boost_stacktrace_windbg_cached.dll",
+    interface_library = "lib/boost_stacktrace_windbg_cached.lib",
+)
+
+
+
+
+cc_import(
+    name = "boost_timer_precompiled",
+    shared_library = "bin/boost_timer.dll",
+    interface_library = "lib/boost_timer.lib",
+)
+
+cc_import(
+    name = "boost_url_precompiled",
+    shared_library = "bin/boost_url.dll",
+    interface_library = "lib/boost_url.lib",
+)
+
+cc_import(
+    name = "boost_wserialization_precompiled",
+    shared_library = "bin/boost_wserialization.dll",
+    interface_library = "lib/boost_wserialization.lib",
+)
+
+cc_import(
+    name = "boost_chrono_precompiled",
+    shared_library = "bin/boost_chrono.dll",
+    interface_library = "lib/boost_chrono.lib",
+)
+
+cc_import(
+    name = "boost_coroutine_precompiled",
+    shared_library = "bin/boost_coroutine.dll",
+    interface_library = "lib/boost_coroutine.lib",
+)
+
+cc_import(
+    name = "boost_filesystem_precompiled",
+    shared_library = "bin/boost_filesystem.dll",
+    interface_library = "lib/boost_filesystem.lib",
+)
+
+cc_import(
+    name = "boost_json_precompiled",
+    shared_library = "bin/boost_json.dll",
+    interface_library = "lib/boost_json.lib",
+)
+
+cc_import(
+    name = "boost_nowide_precompiled",
+    shared_library = "bin/boost_nowide.dll",
+    interface_library = "lib/boost_nowide.lib",
+)
+
+cc_import(
+    name = "boost_prg_exec_monitor_precompiled",
+    shared_library = "bin/boost_prg_exec_monitor.dll",
+    interface_library = "lib/boost_prg_exec_monitor.lib",
+)
+
+cc_import(
+    name = "boost_random_precompiled",
+    shared_library = "bin/boost_random.dll",
+    interface_library = "lib/boost_random.lib",
+)
+
+cc_import(
+    name = "boost_thread_precompiled",
+    shared_library = "bin/boost_thread.dll",
+    interface_library = "lib/boost_thread.lib",
+)
+
+cc_import(
+    name = "boost_type_erasure_precompiled",
+    shared_library = "bin/boost_type_erasure.dll",
+    interface_library = "lib/boost_type_erasure.lib",
+)
+
+cc_import(
+    name = "boost_unit_test_framework_precompiled",
+    shared_library = "bin/boost_unit_test_framework.dll",
+    interface_library = "lib/boost_unit_test_framework.lib",
+)
+
+cc_import(
+    name = "boost_wave_precompiled",
+    shared_library = "bin/boost_wave.dll",
+    interface_library = "lib/boost_wave.lib",
+)
+
+cc_import(
+    name = "boost_contract_precompiled",
+    shared_library = "bin/boost_contract.dll",
+    interface_library = "lib/boost_contract.lib",
+)
+
+cc_import(
+    name = "boost_graph_precompiled",
+    shared_library = "bin/boost_graph.dll",
+    interface_library = "lib/boost_graph.lib",
+)
+
+cc_import(
+    name = "boost_iostreams_precompiled",
+    shared_library = "bin/boost_iostreams.dll",
+    interface_library = "lib/boost_iostreams.lib",
+)
+
+cc_import(
+    name = "boost_locale_precompiled",
+    shared_library = "bin/boost_locale.dll",
+    interface_library = "lib/boost_locale.lib",
+)
+
+cc_import(
+    name = "boost_log_precompiled",
+    shared_library = "bin/boost_log.dll",
+    interface_library = "lib/boost_log.lib",
+)
+
+cc_import(
+    name = "boost_log_setup_precompiled",
+    shared_library = "bin/boost_log_setup.dll",
+    interface_library = "lib/boost_log_setup.lib",
+)
+
+# Root package precompiled libs
+
+# Components libraries declaration
+cc_library(
+    name = "boost-diagnostic_definitions",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "boost-disable_autolinking",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    defines = [
+        "BOOST_ALL_NO_LIB",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "boost-dynamic_linking",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    defines = [
+        "BOOST_ALL_DYN_LINK",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+cc_library(
+    name = "boost-headers",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-diagnostic_definitions",
+        ":boost-disable_autolinking",
+        ":boost-dynamic_linking",
+    ],
+)
+
+cc_library(
+    name = "boost-_boost_cmake",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-headers",
+    ],
+)
+
+cc_library(
+    name = "boost-_libboost",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    linkopts = [
+        "/DEFAULTLIB:bcrypt",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-headers",
+    ],
+)
+
+cc_library(
+    name = "boost-atomic",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_atomic_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-container",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_container_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-context",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_context_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-date_time",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_date_time_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-exception",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math_c99",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_math_c99_precompiled",
+        ":boost-math",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math_c99f",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_math_c99f_precompiled",
+        ":boost-math",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math_c99l",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_math_c99l_precompiled",
+        ":boost-math",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math_tr1",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_math_tr1_precompiled",
+        ":boost-math",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math_tr1f",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_math_tr1f_precompiled",
+        ":boost-math",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-math_tr1l",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_math_tr1l_precompiled",
+        ":boost-math",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-program_options",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_program_options_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-regex",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_regex_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-serialization",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_serialization_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-stacktrace",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-stacktrace_noop",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    defines = [
+        "BOOST_STACKTRACE_USE_NOOP",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_stacktrace_noop_precompiled",
+        ":boost-stacktrace",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-stacktrace_windbg",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    defines = [
+        "BOOST_STACKTRACE_USE_WINDBG",
+    ],
+    linkopts = [
+        "/DEFAULTLIB:ole32",
+        "/DEFAULTLIB:dbgeng",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_stacktrace_windbg_precompiled",
+        ":boost-stacktrace",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-stacktrace_windbg_cached",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    defines = [
+        "BOOST_STACKTRACE_USE_WINDBG_CACHED",
+    ],
+    linkopts = [
+        "/DEFAULTLIB:ole32",
+        "/DEFAULTLIB:dbgeng",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_stacktrace_windbg_cached_precompiled",
+        ":boost-stacktrace",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-system",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-test",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-exception",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-test_exec_monitor",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-test",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-timer",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_timer_precompiled",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-url",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_url_precompiled",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-wserialization",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_wserialization_precompiled",
+        ":boost-serialization",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-chrono",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_chrono_precompiled",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-coroutine",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_coroutine_precompiled",
+        ":boost-context",
+        ":boost-exception",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-filesystem",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_filesystem_precompiled",
+        ":boost-atomic",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-json",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_json_precompiled",
+        ":boost-container",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-nowide",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_nowide_precompiled",
+        ":boost-filesystem",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-prg_exec_monitor",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_prg_exec_monitor_precompiled",
+        ":boost-test",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-random",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_random_precompiled",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-thread",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_thread_precompiled",
+        ":boost-atomic",
+        ":boost-chrono",
+        ":boost-container",
+        ":boost-date_time",
+        ":boost-exception",
+        ":boost-system",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-type_erasure",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_type_erasure_precompiled",
+        ":boost-thread",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-unit_test_framework",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_unit_test_framework_precompiled",
+        ":boost-prg_exec_monitor",
+        ":boost-test",
+        ":boost-test_exec_monitor",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-wave",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_wave_precompiled",
+        ":boost-filesystem",
+        ":boost-serialization",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-contract",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_contract_precompiled",
+        ":boost-exception",
+        ":boost-thread",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-graph",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_graph_precompiled",
+        ":boost-math",
+        ":boost-random",
+        ":boost-regex",
+        ":boost-serialization",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-iostreams",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_iostreams_precompiled",
+        ":boost-random",
+        ":boost-regex",
+        ":boost-_libboost",
+        "@bzip2//:bzip2",
+        "@zlib//:zlib",
+    ],
+)
+
+cc_library(
+    name = "boost-locale",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_locale_precompiled",
+        ":boost-thread",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-log",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_log_precompiled",
+        ":boost-atomic",
+        ":boost-date_time",
+        ":boost-exception",
+        ":boost-filesystem",
+        ":boost-random",
+        ":boost-regex",
+        ":boost-system",
+        ":boost-thread",
+        ":boost-_libboost",
+    ],
+)
+
+cc_library(
+    name = "boost-log_setup",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost_log_setup_precompiled",
+        ":boost-log",
+        ":boost-_libboost",
+    ],
+)
+
+# Package library declaration
+cc_library(
+    name = "boost",
+    hdrs = glob([
+        "include/**",
+    ]),
+    includes = [
+        "include",
+    ],
+    visibility = ["//visibility:public"],
+    deps = [
+        ":boost-diagnostic_definitions",
+        ":boost-disable_autolinking",
+        ":boost-dynamic_linking",
+        ":boost-headers",
+        ":boost-_boost_cmake",
+        ":boost-_libboost",
+        ":boost-atomic",
+        ":boost-container",
+        ":boost-context",
+        ":boost-date_time",
+        ":boost-exception",
+        ":boost-math",
+        ":boost-math_c99",
+        ":boost-math_c99f",
+        ":boost-math_c99l",
+        ":boost-math_tr1",
+        ":boost-math_tr1f",
+        ":boost-math_tr1l",
+        ":boost-program_options",
+        ":boost-regex",
+        ":boost-serialization",
+        ":boost-stacktrace",
+        ":boost-stacktrace_noop",
+        ":boost-stacktrace_windbg",
+        ":boost-stacktrace_windbg_cached",
+        ":boost-system",
+        ":boost-test",
+        ":boost-test_exec_monitor",
+        ":boost-timer",
+        ":boost-url",
+        ":boost-wserialization",
+        ":boost-chrono",
+        ":boost-coroutine",
+        ":boost-filesystem",
+        ":boost-json",
+        ":boost-nowide",
+        ":boost-prg_exec_monitor",
+        ":boost-random",
+        ":boost-thread",
+        ":boost-type_erasure",
+        ":boost-unit_test_framework",
+        ":boost-wave",
+        ":boost-contract",
+        ":boost-graph",
+        ":boost-iostreams",
+        ":boost-locale",
+        ":boost-log",
+        ":boost-log_setup",
+        "@bzip2//:bzip2",
+        "@zlib//:zlib",
+    ],
+)
+
+# Filegroup library declaration
+filegroup(
+    name = "boost_binaries",
+    srcs = glob([
+        "bin/**",
+    ]),
+    visibility = ["//visibility:public"],
+)

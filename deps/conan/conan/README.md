@@ -1,0 +1,1 @@
+Note, this folder would not normally be checked into source control. I have checked it in here to help with communication. If you regenerate this folder with the conan install command, the hacks that I made to the autogen files are copied into the peer directory 'conan-hacks'.
